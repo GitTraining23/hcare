@@ -1,0 +1,17 @@
+package locPages;
+
+public class AddAppointmentPage  {
+	
+	public static String click_Appointment() {
+		String click_Appointment="(//a[@class='cds--side-nav__link'])[1]";
+		return click_Appointment;
+		
+	}
+	
+	public static String click_CreateAppointment() {
+		String create_Appointment="//button[@aria-label='Search Patient Button']";
+		return create_Appointment;
+		
+	}
+
+}

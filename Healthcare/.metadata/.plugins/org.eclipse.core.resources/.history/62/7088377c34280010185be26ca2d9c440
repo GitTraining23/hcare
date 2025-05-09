@@ -1,0 +1,12 @@
+package locPages;
+
+public class AddAppointmentPage  {
+	
+	public static String click_Appointment() {
+		String click_Appointment="(//a[@class='cds--side-nav__link'])[1]";
+		return click_Appointment;
+		
+	}
+
+
+}

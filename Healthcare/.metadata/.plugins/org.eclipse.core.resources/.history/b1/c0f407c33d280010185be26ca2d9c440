@@ -1,0 +1,50 @@
+package locPages;
+
+public class AddAppointmentPage  {
+	
+	public static String click_Appointment() {
+		String click_Appointment="(//a[@class='cds--side-nav__link'])[1]";
+		return click_Appointment;
+		
+	}
+	
+	public static String click_CreateAppointment() {
+		String create_Appointment="//button[@aria-label='Search Patient Button']";
+		return create_Appointment;
+		
+	}
+	
+	public static String searchby_name() {
+		//String search_name=	 "//input[@class='cds--search-input' and @placeholder='Search for a patient by name or identifier number']";
+		String search_name="(//input[@class='cds--search-input'])[2]";
+		return search_name;
+		
+	}
+	public static String search_button() {
+		String search_button="//button[@type='submit']";
+		return search_button;
+		
+	}
+	public static String sel_Location() {
+		String sel_location="//select[@id='location']";
+		
+		return sel_location;
+		
+	}
+	
+	public static String sel_Service() {
+		String sel_serv="//select[@id='service']";
+		
+		return sel_serv;
+		
+	}
+	
+	public static String sel_AppType() {
+		String sel_Apptype="//select[@id='appointmentType']";
+		
+		return sel_Apptype;
+		
+	}
+
+
+}
